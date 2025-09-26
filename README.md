@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='[https://youtu.be/SRTlu16NVfI](https://youtu.be/SRTlu16NVfI)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://youtu.be/SRTlu16NVfI
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  MacOS Screen Recording and Uploaded via YouTube

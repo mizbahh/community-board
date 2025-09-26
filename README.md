@@ -35,10 +35,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://youtu.be/SRTlu16NVfI' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ...  MacOS Screen Recording and Uploaded via YouTube
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -47,10 +47,11 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+Getting started was the hardest part as this class is my first exposure to React framework. Also, it was initially challenging to make sure my design was consistent/clean and the boxes fit properly on the page. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Mizbah Ateeq]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

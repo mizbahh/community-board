@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #e8f5e9, #f1f8e9);
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* header styling */
+.header {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: #93a794;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  font-weight: 400;
+}
+
+/* cards container */
+
+.cards-container {
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* masjid cards */
+.masjid-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.masjid-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* images */
+.card-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #93a794;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.masjid-card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+/* Card Content */
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 1.4rem;
+  color: #93a794;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.location {
+  color: #616161;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* button */
+.btn-website {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #93a794;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.btn-website:hover {
+  background: #6c776d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #93a794;
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 15px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 40px 15px 30px;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .card-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .card-image {
+    height: 180px;
+  }
+}

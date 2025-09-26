@@ -2,7 +2,7 @@
 
 Submitted by: **Mizbah Ateeq**
 
-This web app: **Your guide to Orlando area mosques**
+This web app: **A community board showcasing mosques in the Orlando area**
 
 Time spent: **3** hours spent in total
 

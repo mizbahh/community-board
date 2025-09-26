@@ -38,7 +38,7 @@ Here's a walkthrough of implemented required features:
 https://youtu.be/SRTlu16NVfI
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  MacOS Screen Recording and Uploaded via YouTube
+GIF created with:  MacOS Screen Recording and Uploaded via YouTube
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
